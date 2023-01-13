@@ -1,0 +1,19 @@
+.exchange{
+    display: flex;
+    flex-direction: row;
+}
+
+.exchangeLogo{
+    padding: 5%;
+    padding-left: 15%;
+}
+.exchangeLogo img{
+    width: 50%;
+}
+
+.exchangeContainer{
+    display: flex;
+    flex-direction: row;
+    padding: 10rem;
+}
+

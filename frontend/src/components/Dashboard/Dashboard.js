@@ -11,7 +11,7 @@ const Dashboard = (props) => {
         <>
         <div className={styles.container}>
             <div className={styles.heading}>
-                Your Holdings
+                <h1 className="gradient_text">Your Holdings</h1>
             </div>
             <div className={styles.cards}>
                 <Card index={1} image={polygon} name={"Mumbai"} balance={"10.00 MATIC"}/>

@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.footerHeading}>
-        <h1>Footer</h1>
+          <h1 className="gradient_text">Footer</h1>
       </div>
       <div className={styles.footerBtn}>
         <p>Hello from Satchel</p>

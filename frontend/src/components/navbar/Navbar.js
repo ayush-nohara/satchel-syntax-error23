@@ -1,8 +1,9 @@
 import React, {useState, useEffect} from "react";
 import {ethers} from 'ethers'
 import styles from "./Navbar.module.css";
-import metmaskLogo from "./assets/metamaskLogo.svg";
-import navbarLogo from "./assets/satchelLogo.jpeg";
+import metmaskLogo from "./assets/metamaskLogo.svg"
+import Button from "../Button/Button";
+import navbarLogo from "./assets/satchelLogo.jpeg"
 
 const Navbar = () => {
 
@@ -74,11 +75,10 @@ const Navbar = () => {
             <img src={navbarLogo} alt="SATCHEL" />
         </div>
         <div className={styles.navbarLinksContainer}>
-            <p><a href="#home">Home</a></p>
-            <p><a href="#home">Home</a></p>
-            <p><a href="#home">Home</a></p>
-            <p><a href="#home">Home</a></p>
-            <p><a href="#home">Home</a></p>
+            <p><a href="#Holdings">Holdings</a></p>
+            <p><a href="#Exchange">Exchange</a></p>
+            <p><a href="#Swap">Swap</a></p>
+            <p><a href="#Contact">Contact</a></p>
         </div>
         <div className={styles.navbarConnect}>
             <img src={metmaskLogo} alt="Metamask" />
