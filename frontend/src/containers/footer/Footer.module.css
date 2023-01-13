@@ -1,7 +1,7 @@
 
 .footer {
-  border: 1px solid whitesmoke;
   display: flex;
+  padding: 1rem 0;
   color: white;
   flex-direction: column;
   justify-content: center;
@@ -61,7 +61,7 @@
 }
 
 .footerLinksLogo img {
-    width: 90px;
+    width: 130px;
     margin-bottom: 1rem;
   }
   
@@ -94,4 +94,32 @@
     color: white;
     margin:0.4rem 0;
     cursor: pointer;
+  }
+
+  .footerCopyright{
+    margin-top: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .footerCopyright p{
+    line-height: 13px;
+    font-family: var(--font-family);
+    font-size: 11px;
+    color: white;
+    margin:0.4rem 0;
+  }
+
+  @media screen and (max-width:850px){
+    .footerHeading h1 {
+        font-size: 45px;
+        line-height: 50 px;
+      }
+  }
+
+  @media screen and (max-width:550px){
+    .footerHeading h1 {
+        font-size: 35px;
+        line-height: 40 px;
+      }
   }
