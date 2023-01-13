@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 6rem;
+}
+
+.navbarLinks {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbarLinksLogo {
+  margin-right: 2rem;
+}
+
+.navbarLinksLogo img {
+    width: 80.56px;
+    
+}
+
+.navbarLinksContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbarLinksContainer p {
+  color: white;
+  font-family: var(--font-family);
+  font-weight: 400;
+  line-height: 24px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 0 1rem;
+}
+
+.navbarConnect {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbarConnect button {
+  padding: 0.6rem 1.1rem;
+  color: white;
+  font-family: var(--font-family);
+  background: #ff4820;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  left: 1150px;
+  border-radius: 5px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+
+}
