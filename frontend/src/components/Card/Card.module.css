@@ -1,20 +1,36 @@
 .container{
     width: 20vw;
-    height: 25vh;
+    height: 50vh;
     background: #0500FF26;
     border: #0500FF80 solid 1px;
     border-radius: 0.5rem;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0 1.5rem;
     color: #fff;
+    font-family: 'Montserrat',sans-serif;
 }
 
 .image{
     width: 7.8vw;
     height: 21.4vh;
-    object-fit: cover;
-    border-radius: 8px;
+    /* object-fit: cover; */
+    /* border-radius: 8px; */
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.amount{
+    font-size: 24px;
 }
