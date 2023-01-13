@@ -3,13 +3,13 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 2rem 6rem;
+  padding: 1.3rem 6rem;
 }
 
 .navbarLinks {
   flex: 1;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -18,7 +18,7 @@
 }
 
 .navbarLinksLogo img {
-    width: 80.56px;
+    width: 50px;
     
 }
 
@@ -41,20 +41,25 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    /* padding-left: rem; */
 }
 
 .navbarConnect button {
-  padding: 0.6rem 1.1rem;
+  padding: 0.4rem 0.8rem;
   color: white;
   font-family: var(--font-family);
   background: #ff4820;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
-  left: 1150px;
   border-radius: 5px;
   border: 0;
   outline: none;
   cursor: pointer;
 
+}
+
+.navbarConnect img{
+  height:45px;
+  margin-right: 1rem;
 }

@@ -3,6 +3,7 @@ import "./App.css";
 import Dashboard from "./components/Dashboard/Dashboard";
 
 import Navbar from "./components/navbar/Navbar";
+import Footer from "./containers/footer/Footer"
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Navbar />
       </div>
       <Dashboard />
+      <Footer />
     </div>
   );
 }

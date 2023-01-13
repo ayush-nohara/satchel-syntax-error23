@@ -1,0 +1,39 @@
+.footerLinksLogo img{
+    height: 60px;
+}
+
+.footer{
+     border: 1px solid whitesmoke;
+     display: flex;
+     color: white;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+     background: var(--color-footer);
+}
+
+.footerHeading{
+    width: 100%;
+    text-align: center;
+    margin-bottom:3rem;
+}
+
+.footerHeading h1{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 76px;
+    text-align: center;
+}
+
+.footerBtn{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     padding: 1rem;
+}
+
+.footerBtn p{
+
+}
