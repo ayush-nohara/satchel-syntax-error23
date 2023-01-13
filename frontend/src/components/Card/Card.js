@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Card.module.css";
 
-const Card = ({ image }) => {
+const Card = ({ name, balance, image }) => {
 //   var containerClass;
 //   if (index % 3 === 0) {
 //     containerClass = styles.blueContainer;
@@ -14,8 +14,8 @@ const Card = ({ image }) => {
     <div className={styles.container}>
       <div className={styles.images}><img className={styles.image} src={image} /></div>
       <div className={styles.details}>
-        <div className={styles.name}>Name</div>
-        <div className={styles.amount}>Amount</div>
+        <div className={styles.name}>{name}</div>
+        <div className={styles.amount}>{balance}</div>
         {/* <div className={styles.socials}>
           <a href={twitter} target={'_blank'}><img src={twitterLogo} alt="" /></a>
           <a href={linkedin} target={'_blank'}><img src={linkedinLogo} alt="" /></a>

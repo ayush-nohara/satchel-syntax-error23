@@ -7,5 +7,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 2%;
+    margin-top: 5%;
+    margin-bottom: 50%;
 }
