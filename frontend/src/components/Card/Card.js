@@ -12,14 +12,12 @@ const Card = ({ name, balance, image, index }) => {
   }
   return (
     <div className={containerClass}>
-      <div className={styles.images}><img className={styles.image} src={image} /></div>
+      <div className={styles.images}>
+        <img className={styles.image} src={image} alt="coin" />
+      </div>
       <div className={styles.details}>
         <div className={styles.name}>{name}</div>
         <div className={styles.amount}>{balance}</div>
-        {/* <div className={styles.socials}>
-          <a href={twitter} target={'_blank'}><img src={twitterLogo} alt="" /></a>
-          <a href={linkedin} target={'_blank'}><img src={linkedinLogo} alt="" /></a>
-        </div> */}
       </div>
     </div>
   );
