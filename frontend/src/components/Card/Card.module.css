@@ -1,0 +1,20 @@
+.container{
+    width: 20vw;
+    height: 25vh;
+    background: #0500FF26;
+    border: #0500FF80 solid 1px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 1.5rem;
+    color: #fff;
+}
+
+.image{
+    width: 7.8vw;
+    height: 21.4vh;
+    object-fit: cover;
+    border-radius: 8px;
+}
