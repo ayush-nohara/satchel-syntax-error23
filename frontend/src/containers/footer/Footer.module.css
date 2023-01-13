@@ -1,39 +1,97 @@
-.footerLinksLogo img{
-    height: 60px;
+
+.footer {
+  border: 1px solid whitesmoke;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--color-footer);
 }
 
-.footer{
-     border: 1px solid whitesmoke;
-     display: flex;
+.footerHeading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.footerHeading h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 76px;
+  text-align: center;
+}
+
+.footerBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.footerBtn p {
+     box-sizing: border-box;
      color: white;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
-
-     background: var(--color-footer);
+     word-spacing: 2px;
 }
 
-.footerHeading{
-    width: 100%;
-    text-align: center;
-    margin-bottom:3rem;
-}
-
-.footerHeading h1{
-    font-family: var(--font-family);
-    font-weight: 800;
-    font-size: 60px;
-    line-height: 76px;
-    text-align: center;
-}
-
-.footerBtn{
+.footerLinks{
     display: flex;
-    justify-content: center;
-     align-items: center;
-     padding: 1rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    width: 100%;
+    text-align: left;
 }
 
-.footerBtn p{
-
+.footerLinks div{
+    width: 250px;
+    margin: 1rem; 
 }
+
+.footerLinksLogo{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerLinksLogo img {
+    width: 90px;
+    margin-bottom: 1rem;
+  }
+  
+  .footerLinksLogo p{
+    line-height: 14px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: white;
+     
+  }
+
+  .footerLinksDiv{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .footerLinksDiv h4{
+    line-height: 14px;
+    font-family: var(--font-family);
+    font-size: 12px;
+    color: white;
+    margin-bottom: 1rem;
+  }
+
+  .footerLinksDiv p{
+    line-height: 13px;
+    font-family: var(--font-family);
+    font-size: 11px;
+    color: white;
+    margin:0.4rem 0;
+    cursor: pointer;
+  }

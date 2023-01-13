@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Footer.module.css";
-import NavbarLogo from "./assets/satchelLogo.jpeg";
+import NavbarLogo from "./assets/footerLogo.png";
 const Footer = () => {
   return (
     <div className={styles.footer}>
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
       <div className={styles.footerCopyright}>
-        <p>copyright 2023. All rights reserved</p>
+        <p>© 2023. All rights reserved</p>
       </div>
     </div>
   );
