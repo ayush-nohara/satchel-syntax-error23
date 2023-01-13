@@ -8,11 +8,20 @@ import styles from './Dashboard.module.css';
 const Dashboard = (props) => {
 
     return (
+        <>
         <div className={styles.container}>
-            <Card image={eth} name={"GoerliETH"} balance={"5.00 ETH"}/>
-            <Card image={polygon} name={"Mumbai"} balance={"10.00 MATIC"}/>
-            <Card image={avax} name={"Fuji"} balance={"1.00 AVAX"}/>
+            <div className={styles.heading}>
+                Your Holdings
+            </div>
+            <div className={styles.cards}>
+                <Card index={1} image={polygon} name={"Mumbai"} balance={"10.00 MATIC"}/>
+                <Card index={2} image={avax} name={"Fuji"} balance={"1.00 AVAX"}/>
+                <Card index={0} image={eth} name={"GoerliETH"} balance={"5.00 ETH"}/>
+            </div>
+            
+            
         </div>
+        </>
     );
 };
 

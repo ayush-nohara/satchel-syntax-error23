@@ -1,8 +1,8 @@
-.container{
+.ethContainer{
     width: 20vw;
     height: 50vh;
-    background: #0500FF26;
-    border: #0500FF80 solid 1px;
+    background: #5c63c74c;
+    border: #5C64C7 solid 1px;
     border-radius: 0.5rem;
     display: flex;
     flex-direction: column;
@@ -11,6 +11,39 @@
     padding: 0 1.5rem;
     color: #fff;
     font-family: 'Montserrat',sans-serif;
+padding: 0 2%;
+}
+
+.polygonContainer{
+    width: 20vw;
+    height: 50vh;
+    background: #8147e544;
+    border: #8247E5 solid 1px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    padding: 0 2%;
+}
+
+.avaxContainer{
+    width: 20vw;
+    height: 50vh;
+    background: #e8414136;
+    border: #E84142 solid 1px;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    color: #fff;
+    font-family: 'Montserrat',sans-serif;
+    padding: 0 2%;
 }
 
 .image{
