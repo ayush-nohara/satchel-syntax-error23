@@ -105,7 +105,7 @@ const Navbar = () => {
           </div>
           <div className={styles.navbarConnect}>
             <img src={metmaskLogo} alt="Metamask" />
-            <button onClick={connectWalletHandler}>{connButtonText}</button>
+            <button className={styles.click} onClick={connectWalletHandler}>{connButtonText}</button>
           </div>
           {/* <div style={{ color: "white" }}>{userBalance1}</div>
           <div style={{ color: "white" }}>{userBalance2}</div>

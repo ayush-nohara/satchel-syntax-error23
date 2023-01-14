@@ -5,37 +5,35 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.footerHeading}>
-          <h1 className="gradient_text">Footer</h1>
+          <h2 className="gradient_text">Made with ❤️ by some tech geeks</h2>
       </div>
-      <div className={styles.footerBtn}>
+      {/* <div className={styles.footerBtn}>
         <p>Hello from Satchel</p>
-      </div>
+      </div> */}
 
       <div className={styles.footerLinks}>
         <div className={styles.footerLinksLogo}>
           <img src={NavbarLogo} alt="Satchel" />
-          <p>Hello from Satchel</p>
+          {/* <p>Hello from Satchel</p>/ */}
         </div>
         <div className={styles.footerLinksDiv}>
-          <h4>Links</h4>
-          <p>Facebook</p>
-          <p>Facebook</p>
-          <p>Facebook</p>
-          <p>Facebook</p>
+          <h4>Supported coins</h4>
+          <p>MATIC</p>
+          <p>AVAX</p>
+          <p>ETH</p>
+          <p></p>
         </div>
         <div className={styles.footerLinksDiv}>
-          <h4>About us</h4>
-          <p>Facebook</p>
-          <p>Facebook</p>
-          <p>Facebook</p>
-          <p>Facebook</p>
+          <h4>Use Satchel</h4>
+          <p>View Your balance</p>
+          <p>Swap token</p>
+          <p>Send tokens</p>
         </div>
         <div className={styles.footerLinksDiv}>
-          <h4>Get in Touch</h4>
+          <h4>Contact us</h4>
+          <p><a href="https://www.linkedin.com/in/aman-lachhiramka-238085224/">LinkedIn</a></p>
           <p>Facebook</p>
-          <p>Facebook</p>
-          <p>Facebook</p>
-          <p>Facebook</p>
+          <p>Twitter</p>
         </div>
       </div>
       <div className={styles.footerCopyright}>

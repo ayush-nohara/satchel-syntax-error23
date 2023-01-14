@@ -1,4 +1,4 @@
-.button button{
+.button button {
   padding: 0.4rem 0.8rem;
   color: white;
   font-family: var(--font-family);
@@ -10,4 +10,11 @@
   border: 0;
   outline: none;
   cursor: pointer;
+}
+
+.click:hover {
+  font-weight: 800;
+  color: whitesmoke;
+  transform: scaleX(1); /* Equal to scaleX(2) scaleY(2) */
+  transition-duration: 0.1s;
 }

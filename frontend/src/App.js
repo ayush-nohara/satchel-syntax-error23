@@ -7,6 +7,7 @@ import Navbar from "./components/navbar/Navbar";
 import Sponsor from "./components/sponsors/Sponsor";
 import Middle from "./containers/middle/Middle";
 import Footer from "./containers/footer/Footer";
+import What from "./containers/what/what";
 
 function App() {
   return (
@@ -15,8 +16,8 @@ function App() {
         <div className="App">
           <div className="gradient_bg">
             <Routes>
-              <Route path="/" element={<Navbar />}>
-                <Route index element={<Dashboard />} />
+              <Route path="/" element={<Navbar/>}>
+                <Route index element={[<What/>,<Dashboard />]} />
               </Route>
             </Routes>
           </div>

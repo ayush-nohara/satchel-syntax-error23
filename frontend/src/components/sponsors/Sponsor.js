@@ -8,7 +8,7 @@ const replitLogo = "https://blog.replit.com/images/logo-dark.png";
 
 const Sponsor = () => {
   return (
-      <div className={styles.sponsor}>
+      <div className={styles.sponsor} >
         <span className="gradient_text">Sponsors</span>
         
       <div>
