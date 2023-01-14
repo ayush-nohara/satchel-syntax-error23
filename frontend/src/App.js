@@ -4,6 +4,7 @@ import Dashboard from "./components/Dashboard/Dashboard";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import Navbar from "./components/navbar/Navbar";
+import Sponsor from "./components/sponsors/Sponsor";
 import Middle from "./containers/middle/Middle";
 import Footer from "./containers/footer/Footer";
 
@@ -20,6 +21,7 @@ function App() {
             </Routes>
           </div>
         </div>
+        <Sponsor />
         <Middle />
         <Footer />
       </Router>
