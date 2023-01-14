@@ -8,8 +8,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 10%;
 }
 
 .heading{
@@ -25,6 +25,6 @@
     width: 100vw;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 4%;
+    margin-top: 1%;
     /* align-items: center; */
 }
