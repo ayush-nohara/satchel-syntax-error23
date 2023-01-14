@@ -8,7 +8,7 @@ import { Outlet } from "react-router-dom";
 
 const Navbar = () => {
   const INFURA_ID = "39d0a671f0054022b0397310142aa07d";
-  const ALCHEMY_ID = "9dWF1cZRZn3v2bp_txmtjieSMlkCJZDB";
+  const ALCHEMY_ID = "3lHnfMmLVNgIynQHJVSY_3axbdbwM1AC";
   const [errorMessage, setErrorMessage] = useState(null);
   const [defaultAccount, setDefaultAccount] = useState(null);
   const [userBalance1, setUserBalance1] = useState(null);
@@ -28,7 +28,7 @@ const Navbar = () => {
       // set ethers provider
       setProvider1(
         new ethers.providers.JsonRpcProvider(
-          `https://goerli.infura.io/v3/${INFURA_ID}`
+          `https://eth-mainnet.g.alchemy.com/v2/pyZ_6xWRa6kYR6b6eiFTGiNX3wDX_xJD`
         )
       );
       setProvider2(
@@ -38,7 +38,7 @@ const Navbar = () => {
       );
       setProvider3(
         new ethers.providers.JsonRpcProvider(
-          `https://polygon-mumbai.g.alchemy.com/v2/${ALCHEMY_ID}`
+          `https://polygon-mainnet.g.alchemy.com/v2/${ALCHEMY_ID}`
         )
       );
 
@@ -63,21 +63,21 @@ const Navbar = () => {
   useEffect(() => {
     if (defaultAccount) {
       provider1.getBalance(defaultAccount).then((balanceResult) => {
-        setUserBalance1(ethers.utils.formatEther(balanceResult));
+        setUserBalance1(ethers.utils.formatEther(balanceResult).slice(0,6));
       });
     }
   }, [defaultAccount]);
   useEffect(() => {
     if (defaultAccount) {
       provider2.getBalance(defaultAccount).then((balanceResult) => {
-        setUserBalance2(ethers.utils.formatEther(balanceResult));
+        setUserBalance2(ethers.utils.formatEther(balanceResult).slice(0,6));
       });
     }
   }, [defaultAccount]);
   useEffect(() => {
     if (defaultAccount) {
       provider3.getBalance(defaultAccount).then((balanceResult) => {
-        setUserBalance3(ethers.utils.formatEther(balanceResult));
+        setUserBalance3(ethers.utils.formatEther(balanceResult).slice(0,6));
       });
     }
   }, [defaultAccount]);

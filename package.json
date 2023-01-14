@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@routerprotocol/router-js-sdk": "^0.1.6",
     "coinmarketcap-api": "^3.1.1",
     "ethers": "^5.7.2",
     "hardhat": "^2.12.6",
