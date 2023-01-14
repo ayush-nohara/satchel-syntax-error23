@@ -6,6 +6,7 @@ const what = () => {
   return (
     <div className={styles.section}>
       <h3>What is Satchel</h3>
+      <hr className={styles.line}/>
       <p className={styles.heading}>
         Wanna do a crypto transaction? Satchel got you covered! It allows you to
         send your crypto holdings to another metamask wallet, just in a flash
