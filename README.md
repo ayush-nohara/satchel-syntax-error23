@@ -25,6 +25,7 @@ We learnt how to integrate MetaMask to the frontend . We integrated the router p
   <li>Ethersjs</li>
   <li>Router Protocol</li>
   <li>Web3Modal</li>
+  <li>Deployed on Vercel</li>
 </ul>
 
 ### Test Deployment: https://satchel-syntax-error23-r22w.vercel.app/
