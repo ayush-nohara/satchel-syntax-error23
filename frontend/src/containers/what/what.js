@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./what.module.css";
-import Feature from "../../components/feature/Feature";
 
 const what = () => {
   return (

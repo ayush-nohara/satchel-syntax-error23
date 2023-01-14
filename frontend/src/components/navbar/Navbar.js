@@ -4,7 +4,7 @@ import styles from "./Navbar.module.css";
 import metmaskLogo from "./assets/metamaskLogo.svg";
 import Button from "../Button/Button";
 import navbarLogo from "./assets/navbarLogo.png";
-import { Outlet } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 const Navbar = () => {
   const INFURA_ID = "39d0a671f0054022b0397310142aa07d";
@@ -91,7 +91,7 @@ const Navbar = () => {
           </div>
           <div className={styles.navbarLinksContainer}>
             <p>
-              <a href="#Holdings">Holdings</a>
+              <Link to = "Dashboard" >Holdings</Link>
             </p>
             <p>
               <a href="#Send">Send</a>
