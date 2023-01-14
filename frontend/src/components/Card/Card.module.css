@@ -16,7 +16,7 @@
   color: #fff;
   font-family: "Montserrat", sans-serif;
   padding: 0 2%;
-  box-shadow: 10px 10px 30px rgb(0 0 0 / 95%), 0px 0px 45px #2a2929;
+  box-shadow: 10px 10px 30px rgba(41, 73, 216, 0.579), 0px 0px 45px #2a2929;
 }
 
 .polygonContainer {
@@ -33,7 +33,7 @@
   color: #fff;
   font-family: "Montserrat", sans-serif;
   padding: 0 2%;
-  box-shadow: 10px 10px 30px rgb(0 0 0 / 95%), 0px 0px 45px #2a2929;
+  box-shadow: 10px 10px 30px rgba(145, 66, 214, 0.592), 0px 0px 45px #2a2929;
 }
 
 .avaxContainer {
@@ -50,7 +50,7 @@
   color: #fff;
   font-family: "Montserrat", sans-serif;
   padding: 0 2%;
-  box-shadow: 10px 10px 30px rgb(0 0 0 / 95%), 0px 0px 45px #2a2929;
+  box-shadow: 10px 10px 30px rgba(224, 66, 66, 0.613), 0px 0px 45px #2a2929;
 }
 
 .image {

@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import styles from "./Navbar.module.css";
 import metmaskLogo from "./assets/metamaskLogo.svg";
 import Button from "../Button/Button";
-import navbarLogo from "./assets/satchelLogo.jpeg";
+import navbarLogo from "./assets/navbarLogo.png";
 import { Outlet } from "react-router-dom";
 
 const Navbar = () => {
@@ -19,7 +19,11 @@ const Navbar = () => {
   const [provider2, setProvider2] = useState(null);
   const [provider3, setProvider3] = useState(null);
 
+  // const [text, setText]=useState("Connect Your Meta Mask");
+
   const connectWalletHandler = () => {
+    // setText("Your Holdings");
+    // console.log(text);
     if (window.ethereum && defaultAccount == null) {
       // set ethers provider
       setProvider1(
@@ -48,6 +52,8 @@ const Navbar = () => {
         .catch((error) => {
           setErrorMessage(error.message);
         });
+
+      //set Dashboard text
     } else if (!window.ethereum) {
       console.log("Need to install MetaMask");
       setErrorMessage("Please install MetaMask browser extension to interact");
@@ -88,7 +94,7 @@ const Navbar = () => {
               <a href="#Holdings">Holdings</a>
             </p>
             <p>
-              <a href="#Exchange">Exchange</a>
+              <a href="#Send">Send</a>
             </p>
             <p>
               <a href="#Swap">Swap</a>
@@ -114,6 +120,8 @@ const Navbar = () => {
           setUserBalance3,
           userBalance2,
           setUserBalance2,
+          connButtonText,
+          setConnButtonText,
         }}
       />
     </>
