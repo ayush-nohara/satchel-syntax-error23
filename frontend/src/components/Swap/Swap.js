@@ -13,6 +13,9 @@ const Swap = () => {
               <span>You Send</span>
               <span>
                 <input type="number" spellCheck="false" max="Infinity" min="0" className={sendInput}/>
+                <div className={sendSearch}>
+                    
+                </div>
               </span>
             </label>
           </div>
