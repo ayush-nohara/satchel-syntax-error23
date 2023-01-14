@@ -9,7 +9,7 @@ const replitLogo = "https://blog.replit.com/images/logo-dark.png";
 const Sponsor = () => {
   return (
       <div className={styles.sponsor} >
-        <span className="gradient_text">Sponsors</span>
+        <span className="gradient_text">Powered By</span>
         
       <div>
         <img className={styles.Router} src={RouterLogo} alt="sponsorLogo" />
@@ -17,9 +17,9 @@ const Sponsor = () => {
       <div>
         <img className={styles.Polygon} src={PolygonLogo} alt="sponsorLogo"/>
       </div>
-      <div>
+      {/* <div>
         <img className={styles.Replit} src={replitLogo} alt="sponsorLogo"/>
-      </div>
+      </div> */}
     </div>
   );
 };
