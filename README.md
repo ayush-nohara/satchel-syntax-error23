@@ -13,7 +13,7 @@ Router protocol V1 js sdk doesn't support testnets so we had to switch to mainne
 We learnt how to integrate MetaMask to the frontend . We integrated the router protocol js SDK to swap the crypto token among different ERC20 chains and send them to the desired addresses.We learnt how to integrate different decentralised API's to get real time prices of the crypto tokens and the balance of tha EOA on different chains simultaneously.
 
 ## Features
-1. Displays your crypto assets on the different chain on the same EOA
+1. Displays your crypto assets on the different chain on the same EOA of three main-nets using Alchemy and Infura API 
 2. The receipent receives the token in the native token of the chain his account is presently on by swapping the assets to different chains using router and then sending it to the desired address .
 
 ## How it is made
