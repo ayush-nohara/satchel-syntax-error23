@@ -4,8 +4,9 @@
 }
 
 .exchangeLogo{
-    padding: 5%;
-    padding-left: 15%;
+    padding: 7% 0;
+    padding-left: 8%;
+    /* padding-left: 15%; */
 }
 .exchangeLogo img{
     width: 50%;
@@ -14,6 +15,13 @@
 .exchangeContainer{
     display: flex;
     flex-direction: row;
-    padding: 10rem;
+    padding: 4rem;
+    margin: 0 20px;
 }
+
+.exchangeContainer div{
+  
+    margin: 0 10px;
+}
+
 
