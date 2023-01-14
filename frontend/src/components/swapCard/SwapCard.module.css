@@ -1,13 +1,14 @@
 .sendCard h2{
  font-family: var(--font-family);
  text-align: center;
- margin-bottom: px;
+ /* margin-bottom: px; */
+ height: auto;
  
 }
 
 .cardContainer{
   width: 20vw;
-  height: 40vh;
+  height: 50vh;
   background: #e8414136;
   border: #e84142 solid 1px;
   border-radius: 0.5rem;
@@ -49,4 +50,29 @@
 
 .SendButton{
     margin: 10px;
+}
+
+.btn{
+    padding: 0.4rem 0.8rem;
+    color: white;
+    font-family: var(--font-family);
+    background: #ff4820;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 4%;
+}
+
+.p{
+    font-family: var(--font-family);
+}
+
+.selector1{
+    width: 15vw;
+    padding: 10px 0;
+    border-radius: 10px;
 }

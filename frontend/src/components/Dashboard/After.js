@@ -21,12 +21,12 @@ const After = () => {
           name={"Polygon"}
           balance={`${userBalance3} MATIC`}
         />
-        {/* <Card
+        <Card
           index={2}
           image={avax}
           name={"Fuji"}
           balance={`${userBalance2} AVAX`}
-        /> */}
+        />
         <Card
           index={0}
           image={eth}
