@@ -19,7 +19,7 @@ We learnt how to integrate MetaMask to the frontend . We integrated the router p
 ## How it is made
 ### Tech Stack Used
 <ul>
-  <li>React</li>
+  <li>ReactJS</li>
   <li>CSS Modules</li>
   <li>Solidity</li>
   <li>Ethersjs</li>
