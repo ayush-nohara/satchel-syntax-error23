@@ -6,7 +6,7 @@ const Before = () => {
     <div>
       <div className={styles.heading}>
         <h1 className="gradient_text" style={{ margin: "12rem 0" }}>
-          Connect Your Meta Mask to get Started
+          Connect Your Metamask Wallet to Get Started
         </h1>
       </div>
     </div>

@@ -7,6 +7,8 @@ import SwapCard from '../../components/swapCard/SwapCard'
 
 const Middle = () => {
   return (
+    <>
+    <div className={styles.heading} ><h1 className="gradient_text">Exchanges</h1></div>
     <div className={styles.exchange}>
       <div className={styles.exchangeLogo}>
         <img src={walletLogo} alt="walletLogo" />
@@ -17,6 +19,7 @@ const Middle = () => {
         
       </div>
     </div>
+    </>
   )
 }
 

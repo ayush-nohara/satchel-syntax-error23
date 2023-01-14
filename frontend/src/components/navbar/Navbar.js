@@ -91,7 +91,7 @@ const Navbar = () => {
           </div>
           <div className={styles.navbarLinksContainer}>
             <p>
-              <Link to = "Dashboard" >Holdings</Link>
+              <Link to = "/" >Holdings</Link>
             </p>
             <p>
               <a href="#Send">Send</a>

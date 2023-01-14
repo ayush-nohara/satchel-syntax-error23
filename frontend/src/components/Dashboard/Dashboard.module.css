@@ -18,6 +18,8 @@
     font-size: 30px;
     color: #fff;
     justify-content: center;
+    text-align: center;
+    width: 40vw;
 }
 
 .cards{

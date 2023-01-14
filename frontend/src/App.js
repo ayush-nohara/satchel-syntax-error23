@@ -17,7 +17,7 @@ function App() {
           <div className="gradient_bg">
             <Routes>
               <Route path="/" element={<Navbar/>}>
-                <Route index path="dashboard" element={[<What/>,<Dashboard />]} />
+                <Route index element={[<What/>,<Dashboard />]} />
               </Route>
             </Routes>
           </div>
