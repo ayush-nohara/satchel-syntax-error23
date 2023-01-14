@@ -10,12 +10,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.1",
     "hardhat": "^2.12.6"
   },
   "dependencies": {
+    "@chainlink/contracts": "^0.6.0",
     "@openzeppelin/contracts": "^4.8.0",
     "@routerprotocol/router-js-sdk": "^0.1.6",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "ethers": "^5.7.2"
   }
 }
