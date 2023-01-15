@@ -76,3 +76,11 @@
   font-size: 18.3px;
   color: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
 }
+
+@media screen and (max-width: 550px) {
+  .navbar {
+      padding: 2rem;
+      width: 400px;
+  }
+
+}
