@@ -16,7 +16,9 @@ We learnt how to integrate MetaMask to the frontend . We integrated the router p
 1. Connect Your Meta Mask using a connect button on the navbar which will link your metamask account.
 1. Displays your crypto assets on the different chain on the same EOA of three main-nets using Alchemy and Infura API - Polygon, Fuji, Ethereum
 2. On the Swap card component entering the amount in Matic which will be swapped in the Fantom(FTM) token , the receipent receives the token in the native token of the chain his account is presently on by swapping the assets to different chains using router and then sending it to the desired address .
-
+## How to Start
+> cd ./frontend/
+> npm start
 ## How it is made
 ### Tech Stack Used
 <ul>
