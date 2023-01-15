@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.footerHeading}>
-          <h2 className="gradient_text">Made with ❤️ by some tech geeks</h2>
+          <h3 className="gradient_text">Made with ❤️ by some tech geeks</h3>
       </div>
       {/* <div className={styles.footerBtn}>
         <p>Hello from Satchel</p>
